@@ -9,7 +9,7 @@ const NavBar = () => {
     <>
     
     
-       <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
+       <Navbar collapseOnSelect expand="lg" className="navbar">
       <Container fluid className='main_container'>
       <Navbar.Brand href="#home">Kowshiq Asfat</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
