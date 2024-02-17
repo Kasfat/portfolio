@@ -3,6 +3,7 @@ import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
 import { TopBanner } from "./components/Banner/TopBanner";
 import Service from "./components/Service/Service";
+import Expertise from "./components/Expertise/Expertise";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
                     person."
       />
       <Service/>
+      <Expertise/>
     </>
   );
 }

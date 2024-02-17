@@ -1,0 +1,11 @@
+.expertise_heading{
+    color: #0d6efd;
+    text-transform: uppercase;
+ }
+ .knowledge_list{
+    margin: 5px;
+    min-height: 20rem;
+    padding: 30px 30px;
+    box-shadow: 0 0 4px 0 rgba(0, 115, 230, 0.2);
+    background-color: #fff;
+ }

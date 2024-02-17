@@ -10,5 +10,5 @@
     background-color: #fff;
 }
 .card_box:hover{
-    box-shadow: 0 20px 24px rgba(0, 115, 230, 0.2);
+    box-shadow: 0 0 30px 0px rgba(0, 115, 230, 0.2);
 }

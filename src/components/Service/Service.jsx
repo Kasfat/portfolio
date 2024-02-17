@@ -5,15 +5,9 @@ import { Col, Container, Row } from "react-bootstrap";
 
 const Service = () => {
   return (
-    <div className="service_section mt-3">
+    <div className="service_section">
       <Container className="text-center my-5">
-        <Row>
-          <Col>
-            <h2 className="service_heading fw-bold">What I Will Do For You</h2>
-          </Col>
-        </Row>
-      </Container>
-      <Container>
+        <h2 className="service_heading fw-bold mb-5">What I Will Do For You</h2>
         <Row>
           <Col sm={12} md={6} lg={4}>
             <div className=" card_box text-center rounded-2">
