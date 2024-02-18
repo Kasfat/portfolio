@@ -10,7 +10,7 @@ export const TopBanner = ({name, post, objective}) => {
         <div className="topBannerOverlay d-flex align-items-center">
           <Container className="">
             <Row className="">
-              <Col xs={7}>
+              <Col sm={12} md={7}>
                 <div className=" d-flex flex-column align-items-center justify-content-center ">
                   <p className="myName">
                     I'm <span>{name}</span>
@@ -24,7 +24,7 @@ export const TopBanner = ({name, post, objective}) => {
                   </Button>
                 </div>
               </Col>
-              <Col>
+              <Col sm={12} md={5}>
                 <div className="d-flex flex-column align-items-center">
                   <img width="220px" height="240px" src={myPicture} />
                 </div>

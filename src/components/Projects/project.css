@@ -1,0 +1,11 @@
+.projects_card{
+    margin: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+.projects_card:hover{
+    transform: scale(1.1);
+}
+.projects_heading{
+    color: #0d6efd;
+    text-transform: uppercase;
+}
