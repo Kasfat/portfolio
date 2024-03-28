@@ -5,6 +5,9 @@ import { TopBanner } from "./components/Banner/TopBanner";
 import Service from "./components/Service/Service";
 import Expertise from "./components/Expertise/Expertise";
 import Projects from "./components/Projects/Projects";
+import SummaryBanner from "./components/SummaryBanner/SummaryBanner";
+import ClientReview from "./components/ClientReview/ClientReview";
+
 
 function App() {
   return (
@@ -21,6 +24,8 @@ function App() {
       <Service/>
       <Expertise/>
       <Projects/>
+      <SummaryBanner/>
+      <ClientReview/>
     </>
   );
 }

@@ -1,0 +1,9 @@
+.clientReview_heading{
+    color: #0d6efd;
+    text-transform: uppercase;
+}
+.client_img{
+    width: 10rem;
+    height: 9rem;
+    border: 1px solid#c5baba;
+}

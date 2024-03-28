@@ -1,0 +1,41 @@
+.summaryBanner{
+    background-image: url("../../assets/images/summaryBanner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 300px;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.summaryBannerOverlay{
+    position: absolute;
+    min-height: 300px;
+    width: 100%;
+    background: rgba(0, 0, 0, .4);
+    align-items: center;
+}
+
+.counter{
+    align-items: center;
+}
+
+.foo{
+    background-color: white !important;
+    border-color: white;
+}
+.countNumber{
+    color:#ffffff;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.countTitle{
+    color:#ffffff;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+
